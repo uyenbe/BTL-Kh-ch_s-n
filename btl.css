@@ -1,0 +1,337 @@
+body{
+    margin: 0px;
+    background-color: whitesmoke;
+
+}
+.container{
+    
+    min-height: 1000px;
+    width: 85%;
+    margin: auto;
+}
+.header{
+    
+    height: 160px;
+   
+}
+.content{
+    
+    width: 100%;
+    min-height: 800px;
+    margin: 0px;
+    padding: 0px;
+}
+.footer{
+   
+    clear: left;
+    height: 150px;
+   text-align: justify;
+   padding: 35px 0 0 40px;
+   
+    
+}
+
+.header .logo {
+  
+     width: 200px;
+    margin-top: 20px;
+    float: left;
+   margin-left: 35px;
+}
+.header .right{
+   
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+.header .right .top_menu{
+   /* background: black;*/
+    height: 20px;
+    width: 200px;
+    margin-left: 700px;
+    margin-top: 10px;
+}
+.header .right .main_menu{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 175px;
+    height: 100px;
+}
+.header .right .down-menu{
+    width: 200px;
+    margin-left: 780px;
+   
+    height: 35px;
+    width: auto;
+    list-style: none;
+    text-decoration: none;
+}
+.header .logo img{
+    height: 105px;
+    width: 175px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.header .right .top_menu ul{
+    margin: 0px;
+    padding: 0px;
+}
+.header .right .top_menu ul li {
+    list-style: none;
+    line-height: 30px;
+    
+}
+.header .right .top_menu ul li a{
+    text-decoration: none; /* loại bỏ gạch chân */
+    display: block;
+    padding: 0px 20px 0px 20px;
+   /* border-right: 1px solid #ccc;*/
+}
+.header .right .top_menu img{
+    height: 25px;
+    width: auto;
+    float: left;
+    margin-top: 3px;
+    border-right: 1px solid whitesmoke ;
+    padding: 8px;
+}
+
+.header .right .down-menu ul{
+   margin: 0px;
+   padding: 0px;
+}
+.header .right .down-menu ul li {
+    list-style: none;
+    line-height: 30px;
+    /*float: left;*/
+    
+}
+.header .right .down-menu ul li a{
+    text-decoration: none; /* loại bỏ gạch chân */
+    display: block;
+    /*padding: 0px 10px 0px 10px;*/
+   /* border-right: 1px solid #ccc;*/
+}
+.header .right .down-menu img{
+    height: 30px;
+    width: auto;
+    float: left;
+    margin-top: -5px;
+    border-right: 10px solid whitesmoke ;
+}
+/*.header .right .down-menu a span{
+    width: 25px;
+    height: 25px;
+    background: #ccc url(/BTL-WEB/Anh/call.png) no-repeat 1px;
+    margin: -3px 3px 0 5px;
+    
+}*/
+
+.header .right .main_menu ul{
+    margin: 0px;
+    padding: 0px;
+   /* border: 1px solid whitesmoke;*/
+}
+
+.header .right .main_menu  ul  li{
+    list-style: none;    
+    float: left;
+    position: relative;
+    
+    border-right: 1px solid whitesmoke;
+    padding: 24px 10px 23px 10px;
+}
+.header .right .main_menu  ul  li a , .dropbtn {  /* dấu ">" để gọi từng thành phần 1 */
+    
+   
+    text-decoration: none;
+    color:orange;
+    display: block;
+    line-height: 20px;
+    padding: 10px 15px;
+
+   
+}
+
+ 
+
+/*.header .right .main_menu > ul > li .dropdown-content{
+    background: #ccc;
+    width: 250px;
+    list-style: none;
+   display: none;/* an thuoc tinh ma mk muon an
+    position: absolute; /* di chuyển 1 thẻ trong thẻ khá
+    margin-bottom: 15px;
+  
+    
+}
+.header .right .main_menu > ul > li .dropdown-content a{
+   
+    line-height: 20px;
+    border-bottom: 1px solid #ffff;
+    text-decoration: none;
+    text-indent: 10px;
+}
+.header .right .main_menu >ul > li .dropdown-content a :hover{  /* horver vào thẻ li chứa menu đa cấp
+    background: lightblue;
+}*/ 
+ .dropdown-content {
+    list-style: none;
+    position: absolute;
+    min-width: 160px;
+    line-height: 30px;
+    display: none;
+    z-index: 1;
+    border-right: 0px;
+    border-bottom: 1px solid whitesmoke;
+    
+    
+}
+.dropdown-content a {
+    
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    border-bottom: 2px solid whitesmoke;
+}
+.dropdown-content a:hover {background-color: lightgreen; }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.header .right .main_menu  ul  li  a:hover, .dropdown :hover .dropbtn {
+    background-color: orange;
+    color: red;
+
+}
+
+.content .slider{
+    
+    padding: 0px;
+    width: 100%;
+    height: 400px ;
+    margin-top: 15px;
+    position: relative;
+}
+.content .slider .slide{
+    width: 100%;
+    height: 420px
+}
+.content .slider #prev{
+    text-transform: uppercase;
+    top: 165px;
+    left: 0px;
+    position: absolute;
+}
+.content .slider #next{
+    text-transform: uppercase;
+    top: 165px;
+    right: 0px;
+    position: absolute;
+}
+.content .search{
+    margin-top: 40px;
+    text-align: center;
+
+}
+input[type = text], select{
+    padding-left: 10px;
+    width: 160px;
+    background: #fff;
+    height: 32px;
+    box-sizing: border-box;
+    border: 1px solid #bbbbbb;
+    color: #707070;
+}
+input[type = submit] {
+    width: 125px;
+    background-color: #4CAF50;
+    color: white;
+   
+    margin: 10px ;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 34px;
+    
+}
+input[type = submit]:hover{
+    background: #45a049;
+}
+
+/*display: inline-block;
+    text-align: center;
+    line-height: 34px;
+    background: #b68d46;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: "MYRIADPRO-REGULAR";
+    height: 32px;
+    width: 116px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    cursor: pointer;*/
+.content .main-content{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.content .main-content .img1{
+    width: auto;
+    height: 210px;
+    padding: 30px 15px 5px 5px;
+    margin-left: 60px;
+    float: left;
+}
+.content .main-content .img2{
+    width: auto;
+    height: 210px;
+    margin-left: 20px;
+    padding: 30px 15px 5px 5px;
+    float: left;
+}
+.content .main-content .img3{
+   
+    height: 250px;
+    margin-left: 20px;
+    padding: 30px 15px 5px 5px;
+    float: left;
+}
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:left;
+    width: 250px;
+} 
+div.img:hover {
+    border: 1px solid #777;
+}
+div.img img {
+    width:100%;
+    height: auto;
+}
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+.footer .btn{
+    position: absolute;
+    margin-left: 700px;
+  
+    margin-top: -118px;
+    text-align: center;
+   /* text-align: center;
+    display: block;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 30px;*/
+}
+.footer .btn .title span{
+    
+    margin-right: 110px
+
+}
